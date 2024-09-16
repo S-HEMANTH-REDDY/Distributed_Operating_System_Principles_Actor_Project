@@ -11,7 +11,7 @@ The work unit size is determined dynamically based on the total number of elemen
 
 	•	If n <= 1000, the chunk size (_cs) is set to n.
 	•	Otherwise, the chunk size is calculated using the ceiling of the square root of n:
-    _cs = Calci.ceil(Calci.sqrt(n))
+                _cs = Calci.ceil(Calci.sqrt(n))
 Explanation
 
 The choice of chunk size is based on a balance between workload distribution and parallelism. Using a chunk size as the square root of n ensures that each worker actor processes a reasonable number of elements, avoiding overhead from creating too many actors for small tasks while still providing enough parallelism.
