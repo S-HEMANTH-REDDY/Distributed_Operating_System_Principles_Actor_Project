@@ -31,9 +31,9 @@ Execution Time
 
 The running time for the input lukas 1000000 4 is as follows:
 
-	•	Real Time (RT): 0m32.5s
-	•	CPU Time (CT): 0m130.0s
-	•	Ratio of CPU Time to Real Time: 4.0
+	•	Real Time (RT): 0.03s
+	•	CPU Time (CT): 0.20s
+	•	Ratio of CPU Time to Real Time: 6.7
 
 Interpretation
 
