@@ -3,7 +3,7 @@ README
 
 Overview
 
-This implementation solves the problem of computing the sum of squares in parallel using actors. The work is distributed across multiple actors (workers) to divide and process large numbers of sub-problems efficiently. Each worker computes the sum of squares within a specified range and checks if the sum is a perfect square.
+This implementation solves the problem of computing the sum of squares in parallel using actors. The work is distributed across multiple actors (workers) to divide and process large numbers of sub-problems efficiently.
 
 Work Unit Size
 
@@ -37,10 +37,8 @@ The running time for the input lukas 1000000 4 is as follows:
 
 Interpretation
 
-A CPU-to-real-time ratio of 6.7 indicates that the parallelism was effective, as the program efficiently used all four cores. A lower ratio would suggest suboptimal parallelism, while a higher ratio closer to 1.0 would imply limited or no parallelism.
+A CPU-to-real-time ratio of 6.7.
 
 Largest Problem Solved
 
 The largest problem size that was successfully solved with this implementation is lukas 1000000000 5 where it used 3-4 cores.
-
-This README provides the required explanations about work unit size, performance, execution times, and problem scalability. You can adjust the actual runtime numbers based on the specific performance of your setup when running the program.
